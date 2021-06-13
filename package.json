@@ -1,0 +1,20 @@
+{
+  "name": "dx-insights",
+  "version": "1.0.0",
+  "description": "Runs Google Insights on certain pages and sends data to Grapha",
+  "main": "index.js",
+  "author": "DevriX",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.0.0",
+    "prom-client": "^13.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
